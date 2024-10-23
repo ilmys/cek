@@ -32,10 +32,9 @@ headers = {
 proxy_active = False
 def key_bot():
     header = """
-╔═══════════════════ BLUM ══════════════════╗
-║              Bot Automation               ║
-║         Developed by @ItbaArts_Dev        ║
-╚═══════════════════════════════════════════╝
+┳┓┓ ┳┳┳┳┓
+┣┫┃ ┃┃┃┃┃
+┻┛┗┛┗┛┛ ┗
     """
     print(header)
 def load_credentials():
@@ -607,7 +606,7 @@ def check_tribe(token):
 
 
 def join_tribe(token):
-    url ='https://game-domain.blum.codes/api/v1/tribe/a8e9ee05-b615-4c46-812c-1f8c5a42f93e/join'
+    url ='https://game-domain.blum.codes/api/v1/tribe/'
     headers = {
         'Authorization': f'Bearer {token}',
         'accept': 'application/json, text/plain, */*',
