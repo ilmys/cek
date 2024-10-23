@@ -5,8 +5,8 @@
   "claim_ref_enable": true,
   "daily_reward_enable": true,
   "game_rewards": {
-    "taps_min": 270,
-    "taps_max": 350,
+    "taps_min": 200,
+    "taps_max": 230,
     "dogs_min": 25,
     "dogs_max": 30
   },
